@@ -14,3 +14,10 @@ What value du you think it offers?
     are being made. Not all files in the working direcory are neccesarily
     intended to be tracked, so that's why you need a seperate staging area
     before commiting files.
+
+How can you use the staging area to make sure you have one commit per logical
+ change?
+    I can make changes to several files in my working directory, but
+    I can add them one by one to the staging area and commit them one by one,
+    so that I execute the principle of making one commit per logical change in
+    one or more closely related files.
