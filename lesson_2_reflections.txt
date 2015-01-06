@@ -1,0 +1,16 @@
+
+What happens when you initialize a repository? Why do you need it?
+    When you initialize a repository all the necessary attributes and
+    metadata are assigned to it. Once you do that, the system can start
+    to follow the status of your repository and you can start to use the 
+    necessary tools (commits, logs, ...) to operate on your repository.
+
+How is the staging area different from the working directory and the repository?
+What value du you think it offers?
+    Staging area is like a limbo between working directory and repository.
+    You need to choose what files to commit and if commit multiple files.
+    Staging area provide you with the opportunity of actively choosing
+    what files to include in next commit (snapshot) before these snapshots
+    are being made. Not all files in the working direcory are neccesarily
+    intended to be tracked, so that's why you need a seperate staging area
+    before commiting files.
