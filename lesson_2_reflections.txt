@@ -21,3 +21,14 @@ How can you use the staging area to make sure you have one commit per logical
     I can add them one by one to the staging area and commit them one by one,
     so that I execute the principle of making one commit per logical change in
     one or more closely related files.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+    One of the most common situations is when you want to try some experimental
+    code/solutions to your code, but you don't want to interfere with the main 
+    history - you create a seperate branch and you can now safely experiment with your 
+    code and if it works and you're satisfied with it, you can merge it with the 
+    main branch, or delete it, if you think it's bad after all.
+    Branching and merging allows to add seperate features to the main code, without
+    initially interfering with it. Only when these features have matured you can 
+    safely add the (merge) to the main code and it's history.
