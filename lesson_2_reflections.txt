@@ -32,3 +32,9 @@ organized? How would branches help?
     Branching and merging allows to add seperate features to the main code, without
     initially interfering with it. Only when these features have matured you can 
     safely add the (merge) to the main code and it's history.
+
+How do the diagrams help you visualize the branch structure?
+    Essentialy branches structure is tree structure - so naturally drawing a tree
+    diagram to represent branch struture (with nodes as commits) helps you to
+    visualize and understang everything about branches, branch history, concept
+    of reachability etc.
