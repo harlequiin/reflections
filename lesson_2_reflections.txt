@@ -38,3 +38,15 @@ How do the diagrams help you visualize the branch structure?
     diagram to represent branch struture (with nodes as commits) helps you to
     visualize and understang everything about branches, branch history, concept
     of reachability etc.
+
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+    The result is a new unified branch which includes commits and changes from both
+    of the braches - when you run 'git log' on the merged branch, it shows you all
+    the commits from both branches in time-sorted order. We represent it in the
+    diagram the way we do in order to show that there were seperate branches which
+    probably dealt with different features (or at least on of them), and were later
+    merged, implying that whatever was built in the branches was succesful and later
+    integrated together with the other branch (master branch, mostly) and also to
+    show that the new merged branch commit sees (reaches) previous commits from both of
+    the formerly seperated branches.
