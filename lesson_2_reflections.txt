@@ -50,3 +50,12 @@ diagram the way we do?
     integrated together with the other branch (master branch, mostly) and also to
     show that the new merged branch commit sees (reaches) previous commits from both of
     the formerly seperated branches.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually??
+    Automatic merging is more convienient in a sense that Git does everything for you.
+    However - in a case when there are 2 different changes to the same line, it cannot tell
+    which one is correct or even if they both are correct, so Git asks you to resolve
+    all conflicts manually by signalling and marking the appropriate parts in a source
+    code. 
+    Doing all the merges manually would be tedious - a proper version control system should
+    aim to maximally make these tasks automatic.
