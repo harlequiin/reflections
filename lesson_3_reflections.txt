@@ -4,3 +4,13 @@ When would you want to use a remote repository rather than keeping all your work
   project with multiple contributors or when I want to make a visible project which could 
   potentially attract some contributors. Also - having a remote repository helps in case
   of technical errors (computer breaks down, or you have to replace it, ...).
+
+Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with your remote repository?
+
+  Because I might be developing some features which could interfere with some freshly
+  made changes to remote (by me or some other contributor), so constant updates from
+  remote might become a nuisance and can be annoying - Git doesn't know when I have
+  finished making a stable feature etc., it also may inadvertantly add some new branches
+  that I didn't want, so it's better to leave pulling or pushing changes up to me
+  (programmer).
