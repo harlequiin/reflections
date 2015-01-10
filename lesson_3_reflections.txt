@@ -43,3 +43,14 @@ be harder?
     I can't think of anything that would be easier - perhaps not learning to use Git 
     (which is not a good practice, since you only gain from it and although learning
     curve for git is steep, you adapt quite quickly).
+
+When would you want to make changes in seperate branch rather than directly in master?
+What benefits does each approach have?
+    You want to make a seperate branch when you're working on some new feature which
+    won't be ready right away or can take many commits to finish. Once you're finished
+    you merge that into main(master branch) or make a pull request.
+    Working on the master branch on the other hand has an advantage of less additional
+    work - working on lateral branches can be more complicated because you have to stay
+    up to date with the main branch - you have to pull master into you local master branch,
+    merge master with the branch you're working on - sometimes multiple times in a short
+    period. From that perspective working in a master branch is certainly less complicated.
