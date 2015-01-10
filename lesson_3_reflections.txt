@@ -30,3 +30,10 @@ instead of another?
    can be several ones - starting from a random commit on master branch. Branch 'lives'
    inside a repo. You can push/pull these branches to/from your remote repository (if
    you have one).
+
+What is the benefit of having a copy of the latest known state of the remote stored locally?
+   If there are any conflicts (if someone commited changes to the remote repository for
+   the same file) - you can create a local multi-branch repo by fetching the remote and 
+   examine the conflicts, merge and push.
+   Having local copy of remotes last state aids and is necessary to see if someone made
+   changes to remote while I was working. 
