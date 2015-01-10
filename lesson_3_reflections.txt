@@ -1,5 +1,4 @@
 When would you want to use a remote repository rather than keeping all your work local?
-
   I'd want to use a remote repository for example when I'm collaborating on a bigger
   project with multiple contributors or when I want to make a visible project which could 
   potentially attract some contributors. Also - having a remote repository helps in case
@@ -7,7 +6,6 @@ When would you want to use a remote repository rather than keeping all your work
 
 Why might you want to always pull changes manually rather than having Git automatically
 stay up-to-date with your remote repository?
-
   Because I might be developing some features which could interfere with some freshly
   made changes to remote (by me or some other contributor), so constant updates from
   remote might become a nuisance and can be annoying - Git doesn't know when I have
@@ -37,3 +35,11 @@ What is the benefit of having a copy of the latest known state of the remote sto
    examine the conflicts, merge and push.
    Having local copy of remotes last state aids and is necessary to see if someone made
    changes to remote while I was working. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would
+be harder?
+    Withut Git - probably by emailing etc. It would certainly be more tedious since you'd
+    have to make corespondences every time you change/add something to the project.
+    I can't think of anything that would be easier - perhaps not learning to use Git 
+    (which is not a good practice, since you only gain from it and although learning
+    curve for git is steep, you adapt quite quickly).
