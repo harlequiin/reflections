@@ -14,3 +14,19 @@ stay up-to-date with your remote repository?
   finished making a stable feature etc., it also may inadvertantly add some new branches
   that I didn't want, so it's better to leave pulling or pushing changes up to me
   (programmer).
+
+Describe the differences between forks, clones, and branches. When would you use one
+instead of another?
+   Fork is a remote copy of another repository - making any changes to the fork repo
+   won't affect the original (forked from) repository. Forking a repository comes handy
+   when you don't have any permissions to contribute to the original. You can copy(fork)
+   it and make any changes, twiddle with it as much as you like. Perhaps when you come up 
+   with something new, you can ask to be added as a contributor and add your features to 
+   the original (if you like).
+   Clone is a copy of a repository - either copied directly to your GitHub account (in 
+   that case we call it a fork), or copied local repository - either from another local
+   repo, or - mostly - a copy of someones GitHub repo to your local computer.
+   Branch is a commit line in your repository - main one is called master, but there
+   can be several ones - starting from a random commit on master branch. Branch 'lives'
+   inside a repo. You can push/pull these branches to/from your remote repository (if
+   you have one).
